@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="base.template" template="/template.jsp" />
+	<definition name="login" template="/index.jsp" />
+	<definition name="test" template="/index.jsp" />
+	<definition name="install" template="/index.jsp" />
+	<definition name="datamanager" template="/index.jsp" />
+
+	<definition name="dashboard" extends="base.template">
+		<put-attribute name="headerTitle" value="SDM Core Monitor" />
+		<put-attribute name="mainContent" value="/dashboard.jsp" />
+		<put-attribute name="modalWindow" value="" />
+	</definition>
+	
+	<definition name="scheduler" extends="base.template">
+		<put-attribute name="headerTitle" value="SDM Core Monitor" />
+		<put-attribute name="mainContent" value="/scheduler.jsp" />
+		<put-attribute name="modalWindow" value="" />
+	</definition>
+	
+</tiles-definitions>

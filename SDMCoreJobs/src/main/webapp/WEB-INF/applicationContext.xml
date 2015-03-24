@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<context:annotation-config />
+
+	<context:component-scan base-package="com" />
+	
+	<!-- org.apache.commons.dbcp.BasicDataSource -->
+	<!-- <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource"> -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>
+		<property name="url" value="jdbc:oracle:thin:@localhost:1521:XE" />
+		<property name="username" value="reporting"></property>
+		<property name="password" value="1234"></property>
+		<!-- <property name="hibernate.connection.autocommit" value="false"></property> -->
+	</bean>
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="annotatedClasses">
+			<list>
+			<!--
+				<value>com.entities.entity.common.Error</value>
+				<value>com.entities.entity.loader.FileColum</value>
+				<value>com.entities.entity.loader.FileColumList</value>
+				<value>com.entities.entity.loader.FileConfig</value>
+				<value>com.entities.entity.loader.LoadError</value>
+				<value>com.entities.entity.loader.LoadFile</value>
+				<value>com.entities.entity.loader.LoadRaw</value>
+				<value>com.entities.entity.loader.LoadRawData</value>
+				<value>com.entities.entity.reportingtool.Company</value>
+				<value>com.entities.entity.reportingtool.Fund</value>
+				<value>com.entities.entity.reportingtool.FundGroup</value>
+				<value>com.entities.entity.reportingtool.Department</value>
+				<value>com.entities.entity.reportingtool.ReportCatalog</value>
+				<value>com.entities.entity.reportingtool.ReportCustom</value>
+				<value>com.entities.entity.reportingtool.ReportData</value>
+				<value>com.entities.entity.reportingtool.ReportDataError</value>
+				<value>com.entities.entity.reportingtool.ReportDataLong</value>
+				<value>com.entities.entity.reportingtool.ReportError</value>
+				<value>com.entities.entity.reportingtool.ReportExecution</value>
+				<value>com.entities.entity.reportingtool.ReportField</value>
+				<value>com.entities.entity.reportingtool.ReportFieldList</value>
+				<value>com.entities.entity.reportingtool.ReportSemantic</value>
+				<value>com.entities.entity.usermanager.User</value>
+				<value>com.entities.entity.usermanager.UserRol</value>
+				<value>com.entities.entity.usermanager.UserRolPermission</value>
+			-->
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+				<prop key="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+			</props>
+		</property>
+	</bean>
+
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory">
+			<ref local="sessionFactory" />
+		</property>
+	</bean>
+	
+</beans>
