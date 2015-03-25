@@ -1,4 +1,4 @@
-package com.lynxspa.jobs;
+package com.lynxspa.sdm.jobs.load;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

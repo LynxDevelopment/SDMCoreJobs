@@ -1,4 +1,4 @@
-package com.lynxspa.controllers;
+package com.lynxspa.sdm.controller;
 
 import java.util.ArrayList;
 import java.util.Date;
