@@ -21,6 +21,7 @@ import org.hibernate.annotations.Parameter;
 import org.hibernate.annotations.Type;
 
 import com.lynxspa.sdm.entities.securities.assets.adapter.AssetDetailAdapter;
+import com.lynxspa.sdm.exception.LogErrorDict;
 import com.lynxspa.sdm.exception.SDMException;
 import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
 import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;

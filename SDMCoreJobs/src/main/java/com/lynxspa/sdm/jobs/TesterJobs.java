@@ -32,7 +32,7 @@ public class TesterJobs {
 				.buildSessionFactory();
 
 		
-		private ApplicationContext applicationContext;
+		//private ApplicationContext applicationContext;
 
 		// Probando normalizaciones
 		BeanShellStaticDataNormalizeProcessor normalizer = new BeanShellStaticDataNormalizeProcessor();

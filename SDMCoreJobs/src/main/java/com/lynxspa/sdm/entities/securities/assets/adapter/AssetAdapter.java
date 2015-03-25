@@ -1,5 +1,6 @@
 package com.lynxspa.sdm.entities.securities.assets.adapter;
 
+import com.lynxspa.sdm.entities.application.flow.operation.OperationStatus;
 import com.lynxspa.sdm.entities.securities.assets.AssetType;
 
 public interface AssetAdapter {

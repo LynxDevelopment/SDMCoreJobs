@@ -13,6 +13,7 @@ import org.springframework.context.ApplicationContext;
 
 import bsh.Interpreter;
 
+import com.lynxspa.sdm.dictionary.flow.state.StaticStatesSTATICMESSAGEFlow;
 import com.lynxspa.sdm.entities.job.SDMRow;
 import com.lynxspa.sdm.entities.job.SDMStaticRow;
 import com.lynxspa.sdm.entities.job.SDMValue;

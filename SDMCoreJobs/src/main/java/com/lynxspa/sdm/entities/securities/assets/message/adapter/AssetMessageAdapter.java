@@ -3,6 +3,7 @@ package com.lynxspa.sdm.entities.securities.assets.message.adapter;
 import java.util.Date;
 import java.util.Map;
 
+import com.lynxspa.sdm.entities.application.flow.operation.OperationStatus;
 import com.lynxspa.sdm.entities.securities.assets.AssetType;
 import com.lynxspa.sdm.entities.securities.assets.provider.Provider;
 import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;

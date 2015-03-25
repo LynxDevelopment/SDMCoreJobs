@@ -24,6 +24,7 @@ import javax.persistence.Version;
 
 import org.hibernate.annotations.ForeignKey;
 
+import com.lynxspa.sdm.entities.application.flow.operation.OperationStatus;
 import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
 import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
 

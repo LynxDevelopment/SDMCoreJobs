@@ -20,6 +20,8 @@ import javax.persistence.Version;
 import org.hibernate.annotations.ForeignKey;
 import org.hibernate.annotations.Index;
 
+import com.lynxspa.sdm.entities.application.flow.operation.OperableAdapter;
+import com.lynxspa.sdm.entities.application.flow.operation.OperationStatus;
 import com.lynxspa.sdm.entities.securities.assets.adapter.AssetAdapter;
 import com.lynxspa.sdm.entities.securities.assets.adapter.AssetDetailAdapter;
 import com.lynxspa.sdm.entities.securities.assets.provider.Provider;

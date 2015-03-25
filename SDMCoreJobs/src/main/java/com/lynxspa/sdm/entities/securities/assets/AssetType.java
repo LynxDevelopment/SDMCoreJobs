@@ -6,6 +6,8 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 import com.lynxspa.sdm.entities.FiltrableAdapter;
 import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.InsertAuditor;
 import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.InsertableAdapter;
