@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.bloomberg.load.securities;
+package com.lynxspa.sdm.jobs.bloomberg.load.securities;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-import com.lynspa.sdm.exception.SDMValidationException;
+import com.lynxspa.sdm.exception.SDMValidationException;
 
 /**
  * SDMBBGValidator implements SDMValidator interface

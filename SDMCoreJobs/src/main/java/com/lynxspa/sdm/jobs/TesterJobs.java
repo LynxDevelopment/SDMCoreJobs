@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs;
+package com.lynxspa.sdm.jobs;
 
 import java.io.File;
 
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.jobs.normalization.BeanShellStaticDataNormalizeProcessor;
+import com.lynxspa.sdm.jobs.normalization.BeanShellStaticDataNormalizeProcessor;
 
 public class TesterJobs {
 	private static SessionFactory sessionFactory;

@@ -1,9 +1,9 @@
-package com.lynspa.sdm.processor;
+package com.lynxspa.sdm.processor;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-import com.lynspa.sdm.entities.job.SDMJobField;
+import com.lynxspa.sdm.entities.job.SDMJobField;
 
 public class StaticMessageField {
 	private static Pattern pattern=Pattern.compile("\\([^0-9]\\)");

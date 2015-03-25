@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package com.lynspa.sdm.jobs.bloomberg.load.dao;
+package com.lynxspa.sdm.jobs.bloomberg.load.dao;
 
 import java.util.List;
 import java.util.Map;
@@ -12,8 +12,6 @@ import org.hibernate.criterion.DetachedCriteria;
 import org.hibernate.criterion.Restrictions;
 import org.springframework.orm.hibernate4.HibernateTemplate;
 import org.springframework.transaction.annotation.Transactional;
-
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
 
 public abstract class SDMAbstractDAO<T> {
 	private Class<T> entityClass;

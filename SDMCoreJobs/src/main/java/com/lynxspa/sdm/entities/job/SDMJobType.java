@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities.job;
+package com.lynxspa.sdm.entities.job;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,8 +19,9 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 import javax.persistence.Version;
 
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
+import com.lynxspa.sdm.entities.securities.assets.message.adapter.AssetMessageFieldAdapter;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
 
 @Entity
 @Table(name="TB_SDM_JOBTYPE")

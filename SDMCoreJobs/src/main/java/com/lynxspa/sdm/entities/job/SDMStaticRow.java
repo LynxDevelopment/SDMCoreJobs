@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities.job;
+package com.lynxspa.sdm.entities.job;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;

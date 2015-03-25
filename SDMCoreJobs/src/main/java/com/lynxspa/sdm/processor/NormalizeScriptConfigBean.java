@@ -1,4 +1,4 @@
-package com.lynspa.sdm.processor;
+package com.lynxspa.sdm.processor;
 
 public class NormalizeScriptConfigBean implements Comparable<NormalizeScriptConfigBean>{
 

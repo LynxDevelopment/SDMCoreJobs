@@ -1,8 +1,8 @@
-package com.lynspa.sdm.jobs.normalization;
+package com.lynxspa.sdm.jobs.normalization;
 
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.exception.SDMException;
+import com.lynxspa.sdm.exception.SDMException;
 
 public class NormalizerJob {
 

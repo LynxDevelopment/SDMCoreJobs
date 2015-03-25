@@ -1,9 +1,9 @@
-package com.lynspa.sdm.jobs.normalization;
+package com.lynxspa.sdm.jobs.normalization;
 
 import java.io.Serializable;
 
-import com.lynspa.sdm.entities.securities.assets.AssetDetails;
-import com.lynspa.sdm.entities.securities.assets.AssetType;
+import com.lynxspa.sdm.entities.securities.assets.AssetDetails;
+import com.lynxspa.sdm.entities.securities.assets.AssetType;
 
 public class NormalizeValueResultBean implements Serializable {
 

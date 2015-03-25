@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities.securities.assets;
+package com.lynxspa.sdm.entities.securities.assets;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -6,8 +6,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.InsertAuditor;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.InsertableAdapter;
+import com.lynxspa.sdm.entities.FiltrableAdapter;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.InsertAuditor;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.InsertableAdapter;
 
 
 @Entity

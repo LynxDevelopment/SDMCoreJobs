@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.bloomberg.load.securities;
+package com.lynxspa.sdm.jobs.bloomberg.load.securities;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,10 +6,10 @@ import java.util.List;
 
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.entities.job.SDMJobField;
-import com.lynspa.sdm.entities.job.SDMJobType;
-import com.lynspa.sdm.entities.job.SDMStaticRow;
-import com.lynspa.sdm.entities.job.SDMValue;
+import com.lynxspa.sdm.entities.job.SDMJobField;
+import com.lynxspa.sdm.entities.job.SDMJobType;
+import com.lynxspa.sdm.entities.job.SDMStaticRow;
+import com.lynxspa.sdm.entities.job.SDMValue;
 
 public interface ISDMSourceProcessor {
 

@@ -1,6 +1,6 @@
-package com.lynspa.sdm.entities.securities.assets.adapter;
+package com.lynxspa.sdm.entities.securities.assets.adapter;
 
-import com.lynspa.sdm.entities.securities.assets.AssetType;
+import com.lynxspa.sdm.entities.securities.assets.AssetType;
 
 public interface AssetAdapter {
 	

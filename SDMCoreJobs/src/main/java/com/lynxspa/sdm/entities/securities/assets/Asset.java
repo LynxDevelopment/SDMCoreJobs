@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities.securities.assets;
+package com.lynxspa.sdm.entities.securities.assets;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
@@ -20,11 +20,11 @@ import javax.persistence.Version;
 import org.hibernate.annotations.ForeignKey;
 import org.hibernate.annotations.Index;
 
-import com.lynspa.sdm.entities.securities.assets.adapter.AssetAdapter;
-import com.lynspa.sdm.entities.securities.assets.adapter.AssetDetailAdapter;
-import com.lynspa.sdm.entities.securities.assets.provider.Provider;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
+import com.lynxspa.sdm.entities.securities.assets.adapter.AssetAdapter;
+import com.lynxspa.sdm.entities.securities.assets.adapter.AssetDetailAdapter;
+import com.lynxspa.sdm.entities.securities.assets.provider.Provider;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
 
 @Entity
 @Table(name="TB_SDM_ASSETS") 

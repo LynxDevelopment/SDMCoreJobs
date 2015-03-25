@@ -1,9 +1,9 @@
-package com.lynspa.sdm.jobs.bloomberg.load.dao;
+package com.lynxspa.sdm.jobs.bloomberg.load.dao;
 
 import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate4.HibernateTemplate;
 
-import com.lynspa.sdm.entities.job.SDMStatus;
+import com.lynxspa.sdm.entities.job.SDMStatus;
 
 public class SDMStatusDAO extends SDMAbstractDAO<SDMStatus> {
 

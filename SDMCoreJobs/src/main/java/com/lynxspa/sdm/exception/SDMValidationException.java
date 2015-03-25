@@ -1,4 +1,4 @@
-package com.lynspa.sdm.exception;
+package com.lynxspa.sdm.exception;
 
 /**
  * SDMValidationException

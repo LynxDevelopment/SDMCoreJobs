@@ -1,10 +1,10 @@
-package com.lynspa.sdm.exception;
+package com.lynxspa.sdm.exception;
 
 import java.util.Locale;
 
 import org.apache.log4j.Logger;
 
-import com.lynspa.sdm.util.SDMStringUtils;
+import com.lynxspa.sdm.util.SDMStringUtils;
 
 public class SDMRuntimeException extends RuntimeException {
 

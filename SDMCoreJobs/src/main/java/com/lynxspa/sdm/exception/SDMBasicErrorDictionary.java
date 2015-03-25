@@ -1,4 +1,4 @@
-package com.lynspa.sdm.exception;
+package com.lynxspa.sdm.exception;
 
 public enum SDMBasicErrorDictionary implements SDMExceptionMessage {
 

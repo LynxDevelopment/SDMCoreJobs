@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.bloomberg.load.fields;
+package com.lynxspa.sdm.jobs.bloomberg.load.fields;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,12 +11,12 @@ import org.hibernate.StatelessSession;
 import org.hibernate.Transaction;
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.entities.job.SDMJob;
-import com.lynspa.sdm.entities.job.SDMJobField;
-import com.lynspa.sdm.entities.job.SDMJobType;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.SDMJobDAO;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
-import com.lynspa.sdm.jobs.util.SDMUtils;
+import com.lynxspa.sdm.entities.job.SDMJob;
+import com.lynxspa.sdm.entities.job.SDMJobField;
+import com.lynxspa.sdm.entities.job.SDMJobType;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.SDMJobDAO;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
+import com.lynxspa.sdm.jobs.util.SDMUtils;
 
 public class LoadFieldsBBG {
 

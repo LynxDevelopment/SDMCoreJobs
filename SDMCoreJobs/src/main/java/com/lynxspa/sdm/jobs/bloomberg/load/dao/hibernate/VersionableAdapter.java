@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate;
+package com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate;
 
 import java.io.Serializable;
 

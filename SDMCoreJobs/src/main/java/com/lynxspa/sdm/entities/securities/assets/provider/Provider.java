@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities.securities.assets.provider;
+package com.lynxspa.sdm.entities.securities.assets.provider;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -10,9 +10,9 @@ import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
-import com.lynxspa.entities.UpdatableAdapter;
-import com.lynxspa.entities.UpdateAuditor;
-import com.lynxspa.sdm.interfaces.FiltrableAdapter;
+import com.lynxspa.sdm.entities.FiltrableAdapter;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
 
 @Entity
 @Table(name="TB_SDM_PROVIDERS") 

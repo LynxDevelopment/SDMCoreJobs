@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities;
+package com.lynxspa.sdm.entities;
 
 
 public interface FiltrableAdapter {

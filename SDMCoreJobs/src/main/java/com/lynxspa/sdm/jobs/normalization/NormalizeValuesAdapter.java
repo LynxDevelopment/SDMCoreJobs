@@ -1,11 +1,11 @@
-package com.lynspa.sdm.jobs.normalization;
+package com.lynxspa.sdm.jobs.normalization;
 
 import java.util.List;
 
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.entities.job.SDMRow;
-import com.lynspa.sdm.processor.NormalizeScriptConfigBean;
+import com.lynxspa.sdm.entities.job.SDMRow;
+import com.lynxspa.sdm.processor.NormalizeScriptConfigBean;
 
 public interface NormalizeValuesAdapter {
 

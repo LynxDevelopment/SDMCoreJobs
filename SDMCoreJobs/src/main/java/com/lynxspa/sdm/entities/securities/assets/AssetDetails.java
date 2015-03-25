@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities.securities.assets;
+package com.lynxspa.sdm.entities.securities.assets;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -20,11 +20,11 @@ import org.hibernate.annotations.Columns;
 import org.hibernate.annotations.Parameter;
 import org.hibernate.annotations.Type;
 
-import com.lynspa.sdm.entities.securities.assets.adapter.AssetDetailAdapter;
-import com.lynspa.sdm.exception.SDMException;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
-import com.lynspa.sdm.util.SDMStringUtils;
+import com.lynxspa.sdm.entities.securities.assets.adapter.AssetDetailAdapter;
+import com.lynxspa.sdm.exception.SDMException;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
+import com.lynxspa.sdm.util.SDMStringUtils;
 
 @Entity
 @Table(name="TB_SDM_ASSETDETAILS") 

@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities.job;
+package com.lynxspa.sdm.entities.job;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -16,8 +16,8 @@ import javax.persistence.Version;
 import org.hibernate.annotations.ForeignKey;
 import org.hibernate.annotations.Index;
 
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdatableAdapter;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
 
 @Entity
 @Table(name="TB_SDM_FIELDS")

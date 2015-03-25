@@ -1,12 +1,12 @@
-package com.lynspa.sdm.jobs.util;
+package com.lynxspa.sdm.jobs.util;
 
 import java.util.Map;
 
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.entities.job.SDMJobType;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.SDMJobTypeDAO;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
+import com.lynxspa.sdm.entities.job.SDMJobType;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.SDMJobTypeDAO;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
 
 //import com.lynxspa.entities.UpdateAuditor;
 

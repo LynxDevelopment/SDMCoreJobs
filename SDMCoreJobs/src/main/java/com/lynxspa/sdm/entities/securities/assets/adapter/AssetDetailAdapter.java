@@ -1,8 +1,8 @@
-package com.lynspa.sdm.entities.securities.assets.adapter;
+package com.lynxspa.sdm.entities.securities.assets.adapter;
 
 import java.util.HashMap;
 
-import com.lynspa.sdm.exception.SDMException;
+import com.lynxspa.sdm.exception.SDMException;
 
 public interface AssetDetailAdapter {
 	

@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.bloomberg.load.securities;
+package com.lynxspa.sdm.jobs.bloomberg.load.securities;
 
 import java.io.File;
 

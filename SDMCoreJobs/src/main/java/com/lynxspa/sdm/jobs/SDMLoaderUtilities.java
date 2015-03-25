@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs;
+package com.lynxspa.sdm.jobs;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

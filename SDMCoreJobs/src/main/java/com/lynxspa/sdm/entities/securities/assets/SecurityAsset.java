@@ -1,4 +1,4 @@
-package com.lynspa.sdm.entities.securities.assets;
+package com.lynxspa.sdm.entities.securities.assets;
 
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;
@@ -9,7 +9,7 @@ import javax.persistence.ManyToOne;
 
 import org.hibernate.annotations.ForeignKey;
 
-import com.lynxspa.entities.securities.markets.SPMarket;
+import com.lynxspa.sdm.entities.securities.markets.SPMarket;
 
 @Entity
 @DiscriminatorValue("security")

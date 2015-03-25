@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.bloomberg.load.securities;
+package com.lynxspa.sdm.jobs.bloomberg.load.securities;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -6,8 +6,8 @@ import java.io.IOException;
 
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.exception.SDMBasicErrorDictionary;
-import com.lynspa.sdm.exception.SDMException;
+import com.lynxspa.sdm.exception.SDMBasicErrorDictionary;
+import com.lynxspa.sdm.exception.SDMException;
 
 public class ImportBBGSecuritiesJob {
 

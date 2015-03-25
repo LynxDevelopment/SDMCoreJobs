@@ -1,12 +1,12 @@
-package com.lynspa.sdm.util;
+package com.lynxspa.sdm.util;
 
 import java.text.MessageFormat;
 import java.util.Locale;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
-import com.lynspa.sdm.exception.SDMBasicErrorDictionary;
-import com.lynspa.sdm.exception.SDMException;
+import com.lynxspa.sdm.exception.SDMBasicErrorDictionary;
+import com.lynxspa.sdm.exception.SDMException;
 
 public class SDMStringUtils {
 

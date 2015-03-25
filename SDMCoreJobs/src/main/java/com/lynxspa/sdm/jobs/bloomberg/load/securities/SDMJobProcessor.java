@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.bloomberg.load.securities;
+package com.lynxspa.sdm.jobs.bloomberg.load.securities;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,12 +9,12 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.entities.job.SDMJob;
-import com.lynspa.sdm.entities.job.SDMStaticRow;
-import com.lynspa.sdm.entities.job.SDMValue;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.SDMJobDAO;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
-import com.lynspa.sdm.jobs.util.SDMUtils;
+import com.lynxspa.sdm.entities.job.SDMJob;
+import com.lynxspa.sdm.entities.job.SDMStaticRow;
+import com.lynxspa.sdm.entities.job.SDMValue;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.SDMJobDAO;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
+import com.lynxspa.sdm.jobs.util.SDMUtils;
 
 public class SDMJobProcessor {
 

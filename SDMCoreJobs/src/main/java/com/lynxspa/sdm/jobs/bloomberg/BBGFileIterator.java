@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.bloomberg;
+package com.lynxspa.sdm.jobs.bloomberg;
 
 import java.io.BufferedReader;
 import java.io.File;

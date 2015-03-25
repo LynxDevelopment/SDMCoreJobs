@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.util;
+package com.lynxspa.sdm.jobs.util;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,8 +7,8 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 
-import com.lynspa.sdm.entities.job.SDMValue;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.SDMValueDAO;
+import com.lynxspa.sdm.entities.job.SDMValue;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.SDMValueDAO;
 
 public class SaveRowThread extends Thread {
 

@@ -1,4 +1,4 @@
-package com.lynspa.sdm.jobs.normalization;
+package com.lynxspa.sdm.jobs.normalization;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -13,17 +13,17 @@ import org.springframework.context.ApplicationContext;
 
 import bsh.Interpreter;
 
-import com.lynspa.sdm.entities.job.SDMRow;
-import com.lynspa.sdm.entities.job.SDMStaticRow;
-import com.lynspa.sdm.entities.job.SDMValue;
-import com.lynspa.sdm.entities.securities.assets.AssetDetails;
-import com.lynspa.sdm.entities.securities.assets.AssetType;
-import com.lynspa.sdm.entities.securities.assets.SecurityAsset;
-import com.lynspa.sdm.entities.securities.assets.provider.Provider;
-import com.lynspa.sdm.entities.securities.markets.SPMarket;
-import com.lynspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
-import com.lynspa.sdm.processor.NormalizeScriptConfigBean;
-import com.lynspa.sdm.processor.StaticMessageField;
+import com.lynxspa.sdm.entities.job.SDMRow;
+import com.lynxspa.sdm.entities.job.SDMStaticRow;
+import com.lynxspa.sdm.entities.job.SDMValue;
+import com.lynxspa.sdm.entities.securities.assets.AssetDetails;
+import com.lynxspa.sdm.entities.securities.assets.AssetType;
+import com.lynxspa.sdm.entities.securities.assets.SecurityAsset;
+import com.lynxspa.sdm.entities.securities.assets.provider.Provider;
+import com.lynxspa.sdm.entities.securities.markets.SPMarket;
+import com.lynxspa.sdm.jobs.bloomberg.load.dao.hibernate.UpdateAuditor;
+import com.lynxspa.sdm.processor.NormalizeScriptConfigBean;
+import com.lynxspa.sdm.processor.StaticMessageField;
 
 public class BeanShellStaticDataNormalizeProcessor implements
 		NormalizeValuesAdapter {
